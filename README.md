@@ -195,7 +195,7 @@ SQL> SELECT ename, designation, salary from empn ORDER BY deptno ASC, salary DES
 
 # QUERY:
 
-<img width="568" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/85164d97-acf5-4917-b845-fec1f7d1457c">
+SQL> SELECT ename from empn WHERE deptno NOT IN (30, 40, 10);
 
 
 
