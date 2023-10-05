@@ -170,7 +170,7 @@ SQL> SELECT ename, designation, deptno, hiredate
 
 # QUERY:
 
-<img width="488" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/de7c1c02-b38f-4e31-bbd1-67ee203c6fbf">
+SQL> SELECT * FROM empn WHERE hiredate <'30 sep 81';
 
 
 # OUTPUT:
