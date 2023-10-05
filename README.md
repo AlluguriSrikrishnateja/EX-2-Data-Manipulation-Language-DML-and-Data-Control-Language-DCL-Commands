@@ -183,7 +183,7 @@ SQL> SELECT * FROM empn WHERE hiredate <'30 sep 81';
 
 # QUERY:
 
-<img width="646" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/a26c770f-9315-4046-8d2d-1cf530c1a742">
+SQL> SELECT ename, designation, salary from empn ORDER BY deptno ASC, salary DESC;
 
 # OUTPUT:
 
