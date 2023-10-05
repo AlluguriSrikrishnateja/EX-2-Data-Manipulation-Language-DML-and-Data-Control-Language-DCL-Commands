@@ -47,7 +47,8 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 # QUERY:
 
-<img width="470" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/cabedff1-12e3-4b88-9e08-b1cace3ec432">
+SQL> update manager set salary = (salary*0.10)+ salary ;
+
 
 # OUTPUT:
 
