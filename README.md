@@ -95,7 +95,7 @@ SQL> SELECT
 
 # QUERY:
 
-<img width="572" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/502e846b-2b1d-42eb-925b-e5cd4ef9e2a8">
+SQL> select ename from empn where designation='clerk' ;
 
 
 # OUTPUT:
