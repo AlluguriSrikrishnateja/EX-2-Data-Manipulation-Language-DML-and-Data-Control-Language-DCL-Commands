@@ -123,7 +123,7 @@ SQL> select ename from empn where designation !='manager' ;
 
 # QUERY:
 
-<img width="500" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/32f01648-532b-4767-a05b-4048359bb484">
+SQL> select ename from empn where commission=0;
 
 
 
