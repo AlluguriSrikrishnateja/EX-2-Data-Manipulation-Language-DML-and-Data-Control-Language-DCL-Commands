@@ -152,7 +152,11 @@ SQL> select ename from empn where ename LIKE 'S%' OR ename LIKE '%s';
 
 # QUERY:
 
-<img width="445" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/f197c4ce-0a9c-4721-85f6-154919fc0c3e">
+SQL> SELECT ename, designation, deptno, hiredate
+
+2 from empn
+
+3 order by hiredate ASC;
 
 
 
