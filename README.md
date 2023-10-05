@@ -212,7 +212,7 @@ SQL> SELECT ename from empn WHERE deptno NOT IN (30, 40, 10);
 
 # QUERY:
 
-<img width="389" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/ed939174-ac8f-4541-b6e1-6e406913974d">
+SQL> SELECT COUNT(*) AS num_rows FROM empn;
 
 
 # OUTPUT:
