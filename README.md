@@ -76,7 +76,14 @@ SQL> delete worker where salary<2750;
 # QUERY:
 
 
-<img width="362" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/61e85d68-bbe7-4c38-a9f3-269ebae9b636">
+SQL> SELECT
+2  ename AS "name",
+
+3  salary * 12 AS "Annual Salary" 
+
+4  FROM
+
+5  manger ;
 
 
 # OUTPUT:
