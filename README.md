@@ -139,7 +139,7 @@ SQL> select ename from empn where commission=0;
 
 # QUERY:
 
-<img width="629" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/af7a394a-df47-4031-98d0-3e96719f2ee3">
+SQL> select ename from empn where ename LIKE 'S%' OR ename LIKE '%s';
 
 
 # OUTPUT:
