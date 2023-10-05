@@ -61,8 +61,7 @@ SQL> update manager set salary = (salary*0.10)+ salary ;
 # QUERY:
 
 
-<img width="337" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/e169e813-fc55-471e-8d45-9b7af525fc45">
-
+SQL> delete worker where salary<2750;
 
 # OUTPUT:
 
