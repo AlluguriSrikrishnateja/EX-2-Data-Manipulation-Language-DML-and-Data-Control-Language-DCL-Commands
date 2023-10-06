@@ -47,9 +47,9 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 
 # QUERY:
-
+```
 SQL> update manager set salary = (salary*0.10)+ salary ;
-
+```
 
 # OUTPUT:
 
@@ -61,9 +61,9 @@ SQL> update manager set salary = (salary*0.10)+ salary ;
 
 # QUERY:
 
-
+```
 SQL> delete worker where salary<2750;
-
+```
 # OUTPUT:
 
 
@@ -76,7 +76,7 @@ SQL> delete worker where salary<2750;
 
 # QUERY:
 
-
+```
 SQL> SELECT
 2  ename AS "name",
 
@@ -86,7 +86,7 @@ SQL> SELECT
 
 5  manger ;
 
-
+```
 # OUTPUT:
 
 <img width="379" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/674dae99-3c3f-4984-ad14-dcec30197783">
@@ -95,10 +95,10 @@ SQL> SELECT
 # Q5) List the names of Clerks from emp table.
 
 # QUERY:
-
+```
 SQL> select ename from empn where designation='clerk' ;
 
-
+```
 # OUTPUT:
 
 <img width="337" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/df0633ba-f55c-4774-b553-173e224ad9bb">
@@ -108,10 +108,10 @@ SQL> select ename from empn where designation='clerk' ;
 
 # QUERY:
 
-
+```
 SQL> select ename from empn where designation !='manager' ;
 
-
+```
 
 # OUTPUT:
 
@@ -123,10 +123,10 @@ SQL> select ename from empn where designation !='manager' ;
 # Q7) List the names of employees not eligible for commission.
 
 # QUERY:
-
+```
 SQL> select ename from empn where commission=0;
 
-
+```
 
 # OUTPUT:
 
@@ -139,10 +139,10 @@ SQL> select ename from empn where commission=0;
 # Q8) List employees whose name either start or end with ‘s’.
 
 # QUERY:
-
+```
 SQL> select ename from empn where ename LIKE 'S%' OR ename LIKE '%s';
 
-
+```
 # OUTPUT:
 
 <img width="278" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/24b10315-f682-4407-a478-9a83f5b934b2">
@@ -152,7 +152,7 @@ SQL> select ename from empn where ename LIKE 'S%' OR ename LIKE '%s';
 # Q9) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
 
 # QUERY:
-
+```
 SQL> SELECT ename, designation, deptno, hiredate
 
 2 from empn
@@ -160,7 +160,7 @@ SQL> SELECT ename, designation, deptno, hiredate
 3 order by hiredate ASC;
 
 
-
+```
 # OUTPUT:
 
 <img width="640" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/c5f3b867-e455-4fa6-a7f9-9b9f414fa991">
@@ -170,10 +170,10 @@ SQL> SELECT ename, designation, deptno, hiredate
 # Q10) List the Details of Employees who have joined before 30 Sept 81.
 
 # QUERY:
-
+```
 SQL> SELECT * FROM empn WHERE hiredate <'30 sep 81';
 
-
+```
 # OUTPUT:
 
 <img width="600" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/c9a4bea4-db4a-4739-b5be-c436386c5001">
@@ -183,9 +183,9 @@ SQL> SELECT * FROM empn WHERE hiredate <'30 sep 81';
 # Q11) List ename, deptno and sal after sorting emp table in ascending order by deptno and then descending order by sal.
 
 # QUERY:
-
+```
 SQL> SELECT ename, designation, salary from empn ORDER BY deptno ASC, salary DESC;
-
+```
 # OUTPUT:
 
 
@@ -195,10 +195,10 @@ SQL> SELECT ename, designation, salary from empn ORDER BY deptno ASC, salary DES
 # Q12) List the names of employees not belonging to dept no 30,40 & 10
 
 # QUERY:
-
+```
 SQL> SELECT ename from empn WHERE deptno NOT IN (30, 40, 10);
 
-
+```
 
 # OUTPUT:
 
@@ -212,10 +212,10 @@ SQL> SELECT ename from empn WHERE deptno NOT IN (30, 40, 10);
 
 
 # QUERY:
-
+```
 SQL> SELECT COUNT(*) AS num_rows FROM empn;
 
-
+```
 # OUTPUT:
 
 
@@ -227,7 +227,6 @@ SQL> SELECT COUNT(*) AS num_rows FROM empn;
 # QUERY:
 
 <img width="622" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/4e51d334-b5b9-419c-8de4-a164bb169aef">
-
 
 # OUTPUT:
 
