@@ -29,18 +29,19 @@ DELETE: It is used to delete records from a database table.
 
 
 # Create the table as given below:
+```
 
 create table manager(enumber number(6),ename char(15),salary number(5),commission number(4),annualsalary number(7),Hiredate date,designation char(10),deptno number(2),reporting char(10));
-
+```
 
 # insert the following values into the table
 
-
+```
 insert into manager values(7369,'Dharsan',2500,500,30000,'30-June-81','clerk',10,'John');
 insert into manager values(7839,'Subu',3000,400,36000,'1-Jul-82','manager',null,'James');
 insert into manager values(7934,'Aadhi',3500,300,42000,'1-May-82','manager',30,NULL);
 insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bond');
-
+```
 
 # Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 
