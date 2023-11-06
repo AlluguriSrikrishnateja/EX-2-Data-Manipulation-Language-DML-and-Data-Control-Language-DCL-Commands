@@ -249,3 +249,8 @@ SQL> SELECT COUNT(*) AS num_rows FROM empn;
 
 <img width="325" alt="image" src="https://github.com/AlluguriSrikrishnateja/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343892/211a9877-2d0f-40a0-9b9a-b755197f3fe9">
 
+
+# Result :
+
+  Thus the output of the DML and DCL commands are  verified
+  
